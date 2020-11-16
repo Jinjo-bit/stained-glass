@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+.container{
+    display: grid;
+    background-color: black;
+
+    width: 1100px;
+    height: 700px;
+    margin: auto;
+    grid:
+                  "a1 a1 a2 a2 a2 a3 a3 a4 a5 a7 a7"
+                 "a6 a6 a6 a6 a8 a10 a9 a4 a5 a7 a7"
+                  "a6 a6 a6 a6 a8 a10 a9 a4 . . a14"
+                 "a6 a6 a6 a6 a8 a12 a12 a4 . . a14"
+                "a6 a6 a6 a6 a18 a18 a17 a4 . . a14"
+                   "a16 a16 a15 a15 . . a17 . . . ."
+           "a16 a16 a15 a15 . . a17 a20 a20 a20 a20";
+    
+
+}
+
+.grid-item{
+    background-color: black;
+    background-size: contain;
+    border: black 5px solid;
+}
+.div1{
+    grid-area:a1;
+    background-image: url(images/01.jpg);
+}
+
+.div2{
+    grid-area:a2;
+    background-image: url(images/02.jpg);
+}
+
+.div3{
+    grid-area:a3;
+    background-image: url(images/03.jpg);
+}
+
+.div4{
+    grid-area:a4;
+    background-image: url(images/04.jpg);
+}
+
+.div5{
+    grid-area:a5;
+    background-image: url(images/05.jpg);
+}
+
+.div6{
+    grid-area:a6;
+    background-image: url(images/06.jpg);
+}
+
+.div7{
+    grid-area:a7;
+    background-image: url(images/07.jpg);
+}
+
+.div8{
+    grid-area:a8;
+    background-image: url(images/08.jpg);
+}
+
+.div9{
+    grid-area:a9;
+    background-image: url(images/09.jpg);
+}
+
+.div10{
+    grid-area:a10;
+    background-image: url(images/10.jpg);
+}
+
+.div11{
+    grid-area:a11;
+    background-image: url(images/11.jpg);
+}
+
+.div12{
+    grid-area:a12;
+    background-image: url(images/12.jpg);
+}
+
+.div13{
+    grid-area:a13;
+    background-image: url(images/13.jpg);
+}
+
+.div14{
+    grid-area:a14;
+    background-image: url(images/14.jpg);
+}
+
+.div15{
+    grid-area:a15;
+    background-image: url(images/15.jpg);
+}
+
+.div16{
+    grid-area:a16 ;
+    background-image: url(images/16.jpg);
+}
+
+.div17{
+    grid-area: a17;
+    background-image: url(images/17.jpg);
+}
+
+.div18{
+    grid-area: a18;
+    background-image: url(images/18.jpg);
+}
+
+.div19{
+grid-area: a19;
+background-image: url(images/19.jpg);
+}
+
+.div20{
+    grid-area: a20;
+    background-image: url(images/20.jpg);
+}
